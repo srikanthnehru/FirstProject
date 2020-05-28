@@ -12,3 +12,9 @@ if re.search("^ok",s,re.IGNORECASE):
 else:
     print("not agreed")
 
+    #feature2
+if re.search("^ok done",s,re.IGNORECASE):
+    print("Agreed")
+else:
+    print("not agreed")
+
